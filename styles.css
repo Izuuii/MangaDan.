@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+#title {
+  background-image: url("https://wallpaperaccess.com/full/4131919.jpg");
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+span{
+  background-color: #b32730;
+}
+
+.container-fluid {
+  padding: 3% 15% 9%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.8;
+
+}
+
+h2
+{
+
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 15%;
+}
+
+
+@media (max-width: 1028px) {
+
+body {
+  text-align: center;
+  background-color: #F5F7F8;
+}
+
+
+  .iphone6 {
+    width: 60%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+}
+
+
+.navigation {
+  margin-bottom: 60px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.tincat {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features {
+  text-align: center;
+  background-color: #F5F7F8;
+  position: relative;
+  margin-bottom: -30px;
+}
+
+.f1 {
+  margin-bottom: 30px;
+}
+
+.fas {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.fas:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.fontf {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.pf {
+  color: grey;
+  width: 60%;
+  margin: auto;
+}
+
+.forthefeatures {
+  padding-top: 110px;
+  margin-bottom: 60px;
+}
+
+
+
+
+/* Testimonial Sections */
+
+
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-image: url("https://wallpaperaccess.com/full/4131922.jpg");
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+.press-logo {
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.padding-column {
+  padding: 2% 3%;
+}
+
+
+/* Call to Action */
+
+#cta {
+text-align: center;
+padding: 9% 19%;
+background-image: url("https://cosmoflips.files.wordpress.com/2022/05/fe77-2.gif?w=1400&h=400&crop=1");
+margin: 0;
+max-width: 100%;
+height: auto;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+
+.ctah3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  
+}
+
+.ctabtn {
+ margin-top: 5%;
+ margin-left: 2%;
+}
+
+
+/* Footer */
+
+
+#footer {
+ text-align: center;
+padding: 5% 10%;
+}
+
+.copyright {
+  color: grey;
+}
+
+
+.footericon {
+  margin-left: 1%;
+  padding-bottom:2%;
+}
+
+#Junji{
+  font-size: 42px;
+  text-align: left;
+}
+
+#Junji2{
+  font-size: 27px;
+  text-align: left;
+
+}
+
+#Junji3{
+  background-color: #495E57;
+}
+
+b{
+  font-size: 16.5px;
+  color: red;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
